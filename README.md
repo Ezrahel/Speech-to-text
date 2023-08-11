@@ -22,11 +22,15 @@ This Python script performs speech-to-text conversion using the `SpeechRecogniti
 2. Open a terminal and navigate to the directory containing the script.
 
 3. Run the script using the following command:
+4. To perform speech recognition on a recorded audio file:
+python script_name.py path_to_audio_file.wav
 
+5.To perform live speech recognition using the microphone:
+python script_name.py live
 
-4. The script will prompt you to provide the name of the audio file. Enter the name of the audio file (e.g., `your_audio.wav`) and press Enter.
+6. The script will prompt you to provide the name of the audio file. Enter the name of the audio file (e.g., `your_audio.wav`) and press Enter.
 
-5. The script will perform speech-to-text conversion using the Google Web Speech API and display the recognized text on the terminal.
+7. The script will perform speech-to-text conversion using the Google Web Speech API and display the recognized text on the terminal.
 
 ## Notes
 
